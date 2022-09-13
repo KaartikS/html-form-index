@@ -1,0 +1,60 @@
+<form action="" method="post">
+    <fieldset>
+        <legend>Add User</legend>
+        <br>
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName"><br><br>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName"><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email"><br><br>
+            <label for="status-select">Status</label>
+        </div>
+        <div>
+            <select name="status" id="status-select">
+                <option value="">--Please choose an option--</option>
+                <option value="student">Student</option>
+                <option value="instructor">Instructor</option>
+                <option value="guest">Guest</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <p>Choose your favourite progrmaming language</p>
+            <div>
+                <input type="radio" name="html-form-practice" id="html">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="radio" name="html-form-practice" id="css">
+                <label for="css">CSS</label>
+            </div>
+            <div>
+                <input type="radio" name="html-form-practice" id="javascript">
+                <label for="javascript">Javascript</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label for="comments-text-area">Comments</label>
+            <textarea name="comments" id="comments-text-area" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="date" name="date" id="current-date">
+        </div>
+        <br>
+        <div>
+            <label for="sign-up-newsletter">Sign up for newsletter</label>
+            <input type="checkbox" name="sign-up-newsletter" id="sign-up-newsletter">
+            <br>
+            <label for="terms-and-conditions">Agree to terms and conditions</label>
+            <input type="checkbox" name="terms-and-conditions" id="terms-and-conditions">
+        </div>
+        <br>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </fieldset>
+</form>
